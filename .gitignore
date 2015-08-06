@@ -1,0 +1,8 @@
+*.debhelper
+debian/files
+debian/openstack
+debian/*substvars
+debian/*debhelper.log
+debian/openstack-landscape
+debian/openstack-multi
+debian/openstack-single
