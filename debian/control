@@ -34,6 +34,7 @@ Package: openstack
 Architecture: all
 Depends: gawk,
          nmap,
+         juju-core,
          pwgen,
          python-kombu,
          python3-all,
