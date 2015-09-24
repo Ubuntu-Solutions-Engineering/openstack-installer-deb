@@ -54,8 +54,8 @@ Depends: gawk,
          ${misc:Depends},
          ${python3:Depends},
          ${python:Depends}
-Breaks: cloud-install << 0.99
-Replaces: cloud-install << 0.99
+Breaks: cloud-install (<< 0.99)
+Replaces: cloud-install (<< 0.99)
 Description: Ubuntu Openstack Installer
  Ubuntu OpenStack Installer provides an extremely simple way to
  install, deploy and scale an OpenStack cloud on top of Ubuntu server
@@ -68,8 +68,8 @@ Description: Ubuntu Openstack Installer
 Package: openstack-multi
 Architecture: all
 Depends: openstack, juju-core, lxc, qemu-kvm, virtinst, vlan, ${misc:Depends}
-Breaks: cloud-install-multi << 0.99
-Replaces: cloud-install-multi << 0.99
+Breaks: cloud-install-multi (<< 0.99)
+Replaces: cloud-install-multi (<< 0.99)
 Description: Ubuntu Openstack Installer (multi-system) - dependency package
  Ubuntu OpenStack Installer provides an extremely simple way to
  install, deploy and scale an OpenStack cloud on top of Ubuntu server
@@ -87,8 +87,8 @@ Description: transitional dummy package
 Package: openstack-single
 Architecture: all
 Depends: openstack, juju-local, juju-local-kvm, ${misc:Depends}
-Breaks: cloud-install-single << 0.99
-Replaces: cloud-install-single << 0.99
+Breaks: cloud-install-single (<< 0.99)
+Replaces: cloud-install-single (<< 0.99)
 Description: Ubuntu Openstack Installer (single-system) - dependency package
  Ubuntu OpenStack Installer provides an extremely simple way to
  install, deploy and scale an OpenStack cloud on top of Ubuntu server
@@ -106,8 +106,8 @@ Description: transitional dummy package
 Package: openstack-landscape
 Architecture: all
 Depends: openstack, juju-deployer, ${misc:Depends}
-Breaks: cloud-install-landscape << 0.99
-Replaces: cloud-install-landscape << 0.99
+Breaks: cloud-install-landscape (<< 0.99)
+Replaces: cloud-install-landscape (<< 0.99)
 Description: Ubuntu Openstack Installer (landscape) - dependency package
  Ubuntu OpenStack Installer provides an extremely simple way to
  install, deploy and scale an OpenStack cloud on top of Ubuntu server
