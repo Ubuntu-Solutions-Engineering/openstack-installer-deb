@@ -67,6 +67,13 @@ Description: Ubuntu Openstack Installer
  This package provides the common libraries utilized by the installer
  profiles.
 
+Package: cloud-installer
+Section: metapackages
+Architecture: all
+Depends: openstack, ${misc:Depends}
+Description: transitional dummy package for multi
+  This is a transitional dummy package for multi. It can safely be removed.
+
 Package: openstack-multi
 Architecture: all
 Depends: openstack, juju-core, lxc, qemu-kvm, virtinst, vlan, ${misc:Depends}
@@ -81,6 +88,7 @@ Description: Ubuntu Openstack Installer (multi-system) - dependency package
  This package provides the multi installer profile.
 
 Package: cloud-install-multi
+Section: metapackages
 Architecture: all
 Depends: openstack, openstack-multi, ${misc:Depends}
 Description: transitional dummy package for multi
@@ -100,6 +108,7 @@ Description: Ubuntu Openstack Installer (single-system) - dependency package
  This package provides the single installer profile.
 
 Package: cloud-install-single
+Section: metapackages
 Architecture: all
 Depends: openstack, openstack-single, ${misc:Depends}
 Description: transitional dummy package for single install
@@ -119,6 +128,7 @@ Description: Ubuntu Openstack Installer (landscape) - dependency package
  This package provides the landscape installer profile.
 
 Package: cloud-install-landscape
+Section: metapackages
 Architecture: all
 Depends: openstack, openstack-landscape, ${misc:Depends}
 Description: transitional dummy package for landscape
