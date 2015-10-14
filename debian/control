@@ -56,8 +56,8 @@ Depends: gawk,
          ${misc:Depends},
          ${python3:Depends},
          ${python:Depends}
-Breaks: cloud-install (<< 0.99)
-Replaces: cloud-install (<< 0.99)
+Breaks: cloud-installer (<< 0.99)
+Replaces: cloud-installer (<< 0.99)
 Description: Ubuntu Openstack Installer
  Ubuntu OpenStack Installer provides an extremely simple way to
  install, deploy and scale an OpenStack cloud on top of Ubuntu server
