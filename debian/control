@@ -72,7 +72,7 @@ Section: metapackages
 Architecture: all
 Depends: openstack, ${misc:Depends}
 Description: transitional dummy package for multi
-  This is a transitional dummy package for multi. It can safely be removed.
+ This is a transitional dummy package for multi. It can safely be removed.
 
 Package: openstack-multi
 Architecture: all
@@ -92,7 +92,7 @@ Section: metapackages
 Architecture: all
 Depends: openstack, openstack-multi, ${misc:Depends}
 Description: transitional dummy package for multi
-  This is a transitional dummy package for multi. It can safely be removed.
+ This is a transitional dummy package for multi. It can safely be removed.
 
 Package: openstack-single
 Architecture: all
@@ -112,7 +112,7 @@ Section: metapackages
 Architecture: all
 Depends: openstack, openstack-single, ${misc:Depends}
 Description: transitional dummy package for single install
-  This is a transitional dummy package for single. It can safely be removed.
+ This is a transitional dummy package for single. It can safely be removed.
 
 Package: openstack-landscape
 Architecture: all
@@ -132,4 +132,4 @@ Section: metapackages
 Architecture: all
 Depends: openstack, openstack-landscape, ${misc:Depends}
 Description: transitional dummy package for landscape
-  This is a transitional dummy package for landscape. It can safely be removed.
+ This is a transitional dummy package for landscape. It can safely be removed.
