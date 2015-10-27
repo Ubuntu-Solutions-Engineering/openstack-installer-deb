@@ -13,4 +13,4 @@ macumba                                          usr/share/openstack
 share/templates                                  usr/share/openstack
 tools/apt-go-fast                                usr/share/openstack/tools
 tools/vm-batch                                   usr/share/openstack/tools
-share/rsyslog.d/100-openstack-installer.conf     etc/rsyslog.d
+share/rsyslog.d/99-uoi.conf                      etc/rsyslog.d
