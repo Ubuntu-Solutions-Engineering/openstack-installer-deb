@@ -13,4 +13,4 @@ macumba                                          usr/share/openstack
 share/templates                                  usr/share/openstack
 tools/apt-go-fast                                usr/share/openstack/tools
 tools/vm-batch                                   usr/share/openstack/tools
-share/uoi-rsyslog.conf                           usr/share/openstack/uoi-rsyslog.conf
+share/uoi-rsyslog.conf                           usr/share/openstack

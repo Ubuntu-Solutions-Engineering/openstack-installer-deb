@@ -6,4 +6,6 @@ fi
 
 ln -sf /usr/share/openstack/uoi-rsyslog.conf /etc/rsyslog.d/99-uoi.conf
 
+invoke-rc.d --force rsyslogd restart || true
+
 #DEBHELPER#
