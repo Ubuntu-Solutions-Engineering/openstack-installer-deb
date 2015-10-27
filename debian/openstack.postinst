@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if [ ! -d /var/log/openstack ]; then
+   mkdir -p /var/log/openstack
+fi
+
+ln -sf /usr/share/openstack/uoi-rsyslog.conf /etc/rsyslog.d/99-uoi.conf
+
+#DEBHELPER#
