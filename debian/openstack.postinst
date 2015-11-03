@@ -6,6 +6,11 @@ fi
 
 ln -sf /usr/share/openstack/uoi-rsyslog.conf /etc/rsyslog.d/99-uoi.conf
 
-service rsyslog restart || true
+if [ -f /bin/upstart ]; then
+    service rsyslog restart || true
+fi
+if [ -f /bin/systemctl ]; then
+    systemctl restart rsyslog || true
+fi
 
 #DEBHELPER#
