@@ -22,8 +22,7 @@ Build-Depends: debhelper (>= 9),
                python3-yaml
 Standards-Version: 3.9.6
 Homepage: https://launchpad.net/cloud-installer
-X-Python-Version: >= 2.7
-X-Python3-Version: >= 3.3
+X-Python3-Version: >= 3.4
 Vcs-Browser: https://github.com/Ubuntu-Solutions-Engineering/cloud-installer
 Vcs-Git: https://github.com/Ubuntu-Solutions-Engineering/cloud-installer.git
 
@@ -48,8 +47,7 @@ Depends: juju-core,
          python3-ws4py,
          python3-yaml,
          ${misc:Depends},
-         ${python3:Depends},
-         ${python:Depends}
+         ${python3:Depends}
 Breaks: cloud-installer (<< 0.99)
 Replaces: cloud-installer (<< 0.99)
 Description: Ubuntu Openstack Installer
