@@ -18,6 +18,7 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools,
                python3-urwid,
                python3-ws4py,
+               python3-jujuclient,
                python3-yaml
 Standards-Version: 3.9.6
 Homepage: https://launchpad.net/cloud-installer
@@ -32,6 +33,7 @@ Depends: juju-core,
          python3-bson,
          python3-jinja2,
          python3-kombu,
+         python3-jujuclient,
          python3-lxc,
          python3-mock,
          python3-netaddr,
