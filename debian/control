@@ -17,6 +17,7 @@ Build-Depends: debhelper (>= 9),
                python3-requests-oauthlib,
                python3-setuptools,
                python3-urwid,
+               python3-urwid-ubuntu,
                python3-ws4py,
                python3-yaml
 Standards-Version: 3.9.6
@@ -44,6 +45,7 @@ Depends: juju-core,
          python3-urwid,
          python3-ws4py,
          python3-yaml,
+         python3-urwid-ubuntu,
          ${misc:Depends},
          ${python3:Depends}
 Breaks: cloud-installer (<< 0.99)
