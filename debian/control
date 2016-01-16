@@ -43,9 +43,9 @@ Depends: juju-core,
          python3-requests-oauthlib,
          python3-setuptools,
          python3-urwid,
+         python3-urwid-ubuntu,
          python3-ws4py,
          python3-yaml,
-         python3-urwid-ubuntu,
          ${misc:Depends},
          ${python3:Depends}
 Breaks: cloud-installer (<< 0.99)
@@ -88,7 +88,7 @@ Description: transitional dummy package for multi
 
 Package: openstack-single
 Architecture: all
-Depends: juju-local, juju-local-kvm, openstack, ${misc:Depends}
+Depends: lxd, openstack, ${misc:Depends}
 Breaks: cloud-install-single (<< 0.99)
 Replaces: cloud-install-single (<< 0.99)
 Description: Ubuntu Openstack Installer (single-system) - dependency package
