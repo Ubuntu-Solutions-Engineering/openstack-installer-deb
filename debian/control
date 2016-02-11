@@ -28,6 +28,7 @@ Vcs-Git: https://github.com/Ubuntu-Solutions-Engineering/cloud-installer.git
 Package: openstack
 Architecture: all
 Depends: juju-core,
+         libvirt-bin,
          pollinate,
          python3-bson,
          python3-jinja2,
